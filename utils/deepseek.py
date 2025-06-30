@@ -59,8 +59,8 @@ def get_premium_analysis(birth_date, birth_time, gender, bone_weight, birth_plac
     返回JSON格式，包含以上所有字段
     """
     import os
-# from openai import OpenAI  # ← Remove this
-from deepseek import DeepSeek  # ← Use this
+from openai import OpenAI  # ← Remove this
+#from deepseek import DeepSeek  # ← Use this
 from config import DEEPSEEK_API_KEY, DEEPSEEK_MODEL
 
 import os

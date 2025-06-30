@@ -7,8 +7,8 @@ from utils.deepseek import get_premium_analysis
 from utils.auth import check_subscription
 from config import APP_NAME, PREMIUM_PRICE, BONE_POEMS, DEEPSEEK_ENABLED
 # ✅ 临时定义（用于测试）
-# def check_subscription():
-#     return True
+def check_subscription():
+    return True
 
 # 认证检查
 # ===== 跳过订阅检查（测试阶段） =====

@@ -1,13 +1,18 @@
 import streamlit as st
 from config import PREMIUM_PRICE
 
-def check_subscription():
-    """检查用户是否订阅了高级版"""
-    # 实际应用中应该连接到数据库验证
-    return st.session_state.get('premium_user', False)
+def solar_to_lunar(year, month, day):
+    """将阳历日期转换为阴历日期"""
+    from zhdate import ZhDate
+    import datetime
 
-def show_subscribe_button():
-    """显示订阅按钮"""
-    if st.button(f"订阅高级版 (¥{PREMIUM_PRICE}/月)"):
-        st.session_state.premium_user = True
-        st.rerun()
+    lunar_date = ZhDate.from_datetime(datetime.datetime(year, month, day))
+    
+    leap_prefix = "闰" if lunar_date.lunar_month_cn.startswith("闰") else ""
+    
+    return (
+        lunar_date.lunar_year,
+        leap_prefix + str(lunar_date.lunar_month),
+        lunar_date.lunar_day
+    )
+

@@ -13,12 +13,12 @@ from config import APP_NAME, PREMIUM_PRICE, BONE_POEMS, DEEPSEEK_ENABLED
 #     st.warning(f"请订阅高级版以使用此功能 (¥{PREMIUM_PRICE}/月)")
 #     st.stop()
 # =====================================
-import os
-SKIP_SUBSCRIPTION = os.getenv("SKIP_SUBSCRIPTION", "false").lower() == "true"
+# import os
+# SKIP_SUBSCRIPTION = os.getenv("SKIP_SUBSCRIPTION", "false").lower() == "true"
 
-if not SKIP_SUBSCRIPTION and not check_subscription():
-    st.warning(f"请订阅高级版以使用此功能 (¥{PREMIUM_PRICE}/月)")
-    st.stop()
+# if not SKIP_SUBSCRIPTION and not check_subscription():
+#     st.warning(f"请订阅高级版以使用此功能 (¥{PREMIUM_PRICE}/月)")
+#     st.stop()
 
 
 # 设置页面

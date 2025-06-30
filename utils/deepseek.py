@@ -3,7 +3,9 @@ from openai import OpenAI  # ← Remove this
 from deepseek import DeepSeek  # ← Use this
 from config import DEEPSEEK_API_KEY, DEEPSEEK_MODEL
 
-client = OpenAI(api_key=DEEPSEEK_API_KEY)
+#client = OpenAI(api_key=DEEPSEEK_API_KEY)
+openai.api_key = os.getenv("DEEPSEEK_API_KEY")
+openai.base_url = "https://api.deepseek.com/v1"  # Check this in your DeepSeek docs
 
 def get_simple_analysis(birth_date, birth_hour, gender, bone_weight, language="中文"):
     """获取基础版AI分析"""

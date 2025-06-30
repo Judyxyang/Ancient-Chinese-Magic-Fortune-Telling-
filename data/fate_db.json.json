@@ -1,0 +1,195 @@
+{
+  "analysis_templates": [
+    {
+      "bone_weight_range": [2.1, 2.9],
+      "marriage": {
+        "zh": "婚姻缘分较浅，宜晚婚。配偶助力有限，需多包容理解。",
+        "en": "Marriage affinity is weak, better to marry late. Limited spousal support, requires more tolerance."
+      },
+      "career": {
+        "zh": "事业多劳少成，宜从事稳定工作。避免高风险投资。",
+        "en": "Career requires much effort with little return, stable jobs are preferable. Avoid high-risk investments."
+      },
+      "health": {
+        "zh": "体质偏弱，注意脾胃保养。规律作息为要。",
+        "en": "Weak constitution, pay attention to spleen/stomach health. Regular routine is essential."
+      },
+      "wealth": {
+        "zh": "财运平平，宜节俭持家。45岁后略有改善。",
+        "en": "Average wealth luck, frugality recommended. Slight improvement after age 45."
+      },
+      "advice": {
+        "zh": [
+          "多行善事积累福报",
+          "培养一技之长立足社会",
+          "避免担保借贷"
+        ],
+        "en": [
+          "Accumulate merit through good deeds",
+          "Develop professional skills",
+          "Avoid loan guarantees"
+        ]
+      }
+    },
+    {
+      "bone_weight_range": [3.0, 3.9],
+      "marriage": {
+        "zh": "婚姻需主动争取，配偶勤劳但性格刚强。婚配属蛇、鸡者为佳。",
+        "en": "Marriage requires initiative, spouse is hardworking but strong-willed. Best matches: Snake, Rooster."
+      },
+      "career": {
+        "zh": "适合技术类工作，中年后有机会晋升。避免频繁跳槽。",
+        "en": "Suitable for technical jobs, promotion opportunities after middle age. Avoid frequent job-hopping."
+      },
+      "health": {
+        "zh": "注意呼吸道健康，戒烟为佳。适度运动增强体质。",
+        "en": "Pay attention to respiratory health, quitting smoking is advisable. Moderate exercise recommended."
+      },
+      "wealth": {
+        "zh": "正财稳定，偏财薄弱。宜通过副业增加收入。",
+        "en": "Stable main income, weak side income. Side jobs recommended."
+      },
+      "advice": {
+        "zh": [
+          "35岁前专注能力积累",
+          "学习理财知识",
+          "保持至少3个月应急储蓄"
+        ],
+        "en": [
+          "Focus on skill-building before 35",
+          "Learn financial management",
+          "Maintain 3-month emergency fund"
+        ]
+      }
+    },
+    {
+      "bone_weight_range": [4.0, 4.9],
+      "marriage": {
+        "zh": "婚姻和睦，配偶贤惠。注意避免因工作忽略家庭。",
+        "en": "Harmonious marriage with virtuous spouse. Avoid neglecting family for work."
+      },
+      "career": {
+        "zh": "适合管理岗位，有领导运。宜把握38岁前后机遇。",
+        "en": "Suitable for management positions with leadership luck. Seize opportunities around age 38."
+      },
+      "health": {
+        "zh": "总体健康，注意腰椎保养。每年体检不可少。",
+        "en": "Generally healthy, pay attention to lumbar care. Annual checkups essential."
+      },
+      "wealth": {
+        "zh": "财星高照，适合投资不动产。避免合伙经营。",
+        "en": "Strong wealth luck, good for real estate investment. Avoid partnerships."
+      },
+      "advice": {
+        "zh": [
+          "购置房产宜选东南方位",
+          "发展人脉资源",
+          "50岁后注意资产配置"
+        ],
+        "en": [
+          "Purchase property in southeast direction",
+          "Develop networking resources",
+          "Asset allocation important after 50"
+        ]
+      }
+    },
+    {
+      "bone_weight_range": [5.0, 5.9],
+      "marriage": {
+        "zh": "婚姻幸福，配偶家世良好。子女缘分深厚。",
+        "en": "Happy marriage with good family background spouse. Strong children affinity."
+      },
+      "career": {
+        "zh": "官运亨通，适合公务员或大型企业。关键贵人属龙、猴。",
+        "en": "Strong official luck, suitable for civil service or large corporations. Key helpers: Dragon, Monkey."
+      },
+      "health": {
+        "zh": "身体素质佳，注意心脑血管保养。适度饮酒。",
+        "en": "Good physique, pay attention to cardiovascular health. Moderate alcohol consumption."
+      },
+      "wealth": {
+        "zh": "正偏财俱佳，适合多元化投资。45岁达财富高峰。",
+        "en": "Excellent main and side income, suitable for diversified investments. Wealth peaks at 45."
+      },
+      "advice": {
+        "zh": [
+          "把握每7年的事业机遇期",
+          "建立家族信托",
+          "支持教育公益事业"
+        ],
+        "en": [
+          "Seize career opportunities every 7 years",
+          "Establish family trust",
+          "Support educational charities"
+        ]
+      }
+    },
+    {
+      "bone_weight_range": [6.0, 7.2],
+      "marriage": {
+        "zh": "婚姻门当户对，配偶才貌双全。子女必有成就。",
+        "en": "Well-matched marriage with talented spouse. Children will achieve great success."
+      },
+      "career": {
+        "zh": "位高权重，宜从政或创业。关键转折点在33岁。",
+        "en": "High-ranking positions, suitable for politics or entrepreneurship. Key turning point at 33."
+      },
+      "health": {
+        "zh": "先天体质强健，注意劳逸结合。养生宜静坐冥想。",
+        "en": "Strong innate constitution, balance work and rest. Meditation recommended."
+      },
+      "wealth": {
+        "zh": "财库丰盈，可跨国经营。60岁后财富可持续增长。",
+        "en": "Abundant wealth, suitable for multinational operations. Sustainable growth after 60."
+      },
+      "advice": {
+        "zh": [
+          "建立家族办公室管理资产",
+          "培养接班人宜早",
+          "多行善事福泽后代"
+        ],
+        "en": [
+          "Establish family office for asset management",
+          "Start successor training early",
+          "Accumulate merit for descendants"
+        ]
+      }
+    }
+  ],
+  "yearly_luck": {
+    "zh": {
+      "good_years": [3, 7, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72],
+      "bad_years": [9, 19, 29, 39, 49, 59, 69],
+      "interpretation": "每逢3/7结尾年份运势上扬，9结尾年份需谨慎。本命年宜穿红色。"
+    },
+    "en": {
+      "good_years": [3, 7, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72],
+      "bad_years": [9, 19, 29, 39, 49, 59, 69],
+      "interpretation": "Luck rises in years ending with 3/7, caution needed in 9-ending years. Wear red in zodiac year."
+    }
+  },
+  "compatibility": {
+    "zh": {
+      "best": ["龙", "猴", "鼠"],
+      "good": ["蛇", "鸡", "牛"],
+      "avoid": ["兔", "狗", "猪"]
+    },
+    "en": {
+      "best": ["Dragon", "Monkey", "Rat"],
+      "good": ["Snake", "Rooster", "Ox"],
+      "avoid": ["Rabbit", "Dog", "Pig"]
+    }
+  },
+  "lucky_elements": {
+    "zh": {
+      "colors": ["金色", "紫色", "红色"],
+      "numbers": [6, 8, 9],
+      "directions": ["东南", "西北"]
+    },
+    "en": {
+      "colors": ["Gold", "Purple", "Red"],
+      "numbers": [6, 8, 9],
+      "directions": ["Southeast", "Northwest"]
+    }
+  }
+}

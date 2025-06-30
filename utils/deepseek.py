@@ -1,7 +1,6 @@
 import os
 from openai import OpenAI  # ← Remove this
 import openai
-#from deepseek import DeepSeek  # ← Use this
 from config import DEEPSEEK_API_KEY, DEEPSEEK_MODEL
 
 #client = OpenAI(api_key=DEEPSEEK_API_KEY)

@@ -2,8 +2,18 @@ import os
 import streamlit as st
 from config import PREMIUM_PRICE
 
+import streamlit as st
+from config import PREMIUM_PRICE
+
 def check_subscription():
-    return True
+    """检查用户是否订阅了高级版"""
+    return st.session_state.get('premium_user', False)
+
+def show_subscribe_button():
+    if st.button(f"订阅高级版 (¥{PREMIUM_PRICE}/月)"):
+        st.session_state.premium_user = True
+        st.rerun()
+
 
 # def check_subscription():
 #     """检查用户是否订阅了高级版"""

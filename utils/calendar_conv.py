@@ -6,11 +6,17 @@ def solar_to_lunar(year, month, day):
     """将阳历日期转换为阴历日期"""
     lunar_date = ZhDate.from_datetime(datetime.datetime(year, month, day))
     
-    leap_prefix = "闰" if lunar_date.is_leap_month else ""
+    # Use lunar_month_cn to detect leap months
+    lunar_month_cn = lunar_date.lunar_month_cn  # e.g., "闰二月" or "二月"
+    is_leap = lunar_month_cn.startswith("闰")
     
+    leap_prefix = "闰" if is_leap else ""
+    lunar_month = lunar_date.lunar_month
+
     return (
         lunar_date.lunar_year,
-        leap_prefix + str(lunar_date.lunar_month),
+        leap_prefix + str(lunar_month),
         lunar_date.lunar_day
     )
+
 

@@ -4,11 +4,11 @@ import json
 from utils.calendar_conv import solar_to_lunar
 from utils.bone_calculator import calculate_bone_weight
 from utils.deepseek import get_premium_analysis
-#from utils.auth import check_subscription
+from utils.auth import check_subscription
 from config import APP_NAME, PREMIUM_PRICE, BONE_POEMS, DEEPSEEK_ENABLED
 # ✅ 测试跳过订阅验证
-def check_subscription():
-    return True
+# def check_subscription():
+#     return True
 # 认证检查
 # ===== 跳过订阅检查（测试阶段） =====
 # if not check_subscription():

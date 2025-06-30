@@ -1,0 +1,20 @@
+yuan_bone_fortune/
+├── .gitignore
+├── README.md
+├── requirements.txt
+├── app.py                  # 主应用文件
+├── config.py               # 配置文件
+├── pages/
+│   ├── 1_基础版.py         # 基础版页面
+│   └── 2_高级版.py         # 收费版页面
+├── utils/
+│   ├── calendar_conv.py    # 阳历转阴历工具
+│   ├── bone_calculator.py  # 称骨计算逻辑
+│   ├── deepseek.py         # DeepSeek集成
+│   └── auth.py             # 认证工具
+├── data/
+│   ├── bone_poems.json     # 称骨歌谣数据库
+│   └── fate_db.json        # 命理分析数据库
+└── assets/
+    ├── logo.png            # 应用logo
+    └── style.css           # 自定义样式

@@ -4,3 +4,4 @@ python-dotenv>=1.0.0
 openai>=1.0.0
 streamlit-authenticator>=0.2.3
 pandas>=2.0.0
+sk-8ebe645b7e044e12b5a4712dc39e91b9

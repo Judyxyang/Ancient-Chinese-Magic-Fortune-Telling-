@@ -14,7 +14,7 @@ PREMIUM_PRICE = 9.9  # 高级版价格
 
 # DeepSeek配置
 DEEPSEEK_ENABLED = True
-DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
+DEEPSEEK_API_KEY = os.getenv("") # DEEPSEEK_API_KEY
 DEEPSEEK_MODEL = "deepseek-chat"
 
 # 数据文件路径

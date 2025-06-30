@@ -2,8 +2,8 @@ streamlit>=1.29.0
 zhdate==0.1
 #zhdate>=2.0.2#
 python-dotenv>=1.0.0
-#openai>=1.0.0
-deepseek>=0.1.0  # Replace openai with DeepSeek's official package
+openai>=1.0.0
+#deepseek>=0.1.0  # Replace openai with DeepSeek's official package
 streamlit-authenticator>=0.2.3
 pandas>=2.0.0
 

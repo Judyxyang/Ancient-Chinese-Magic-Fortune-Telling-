@@ -1,4 +1,1 @@
-streamlit
-zhdate
-openai
-python-dotenv
+python-3.10

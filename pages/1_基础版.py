@@ -31,7 +31,7 @@ with st.sidebar:
         ["中文", "English"],
         key="lang_radio",
         on_change=lambda: set_language(st.session_state.lang_radio)
-    
+    )  # ✅ Correctly closed
     if DEEPSEEK_ENABLED:
         st.checkbox(
             "启用AI分析" if st.session_state.language == "中文" else "Enable AI Analysis",

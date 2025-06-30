@@ -4,7 +4,7 @@ import json
 from utils.calendar_conv import solar_to_lunar
 from utils.bone_calculator import calculate_bone_weight
 from utils.deepseek import get_premium_analysis
-from utils.auth import check_subscription
+#from utils.auth import check_subscription
 from config import APP_NAME, PREMIUM_PRICE, BONE_POEMS, DEEPSEEK_ENABLED
 # ✅ 临时定义（用于测试）
 def check_subscription():
